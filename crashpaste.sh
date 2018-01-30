@@ -22,9 +22,7 @@ do
 
 curl -X POST \
   $DISCORDHOOK \
-  -H 'cache-control: no-cache' \
   -H 'content-type: application/json' \
-  -H 'postman-token: fd3e4d9a-c59f-d5d4-2e8b-769e3b4ce230' \
   -d '{
   "username":"The Crashed Potato",
   "avatar_url": "https://i.imgur.com/4M34hi2.png",
